@@ -3,12 +3,15 @@
 * {
     padding: 0;
     margin: 0;
+    width: 100%;
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
 }
 
-header {
+.menu-topo {
+    position: fixed;
     background-color: #24252a;
-    box-shadow: 0px 3px 10px #464646;
+    box-shadow: 0px 3px 10px #5c4a4a;
 }
 
 .nav-bar {
@@ -96,10 +99,59 @@ header {
 
     .mobile-menu .nav-item {
         display: block;
-        padding: 1.2rem;
+        padding: 1.5rem;
     }
 
     .open{
         display: block;
     }
 }
+
+/*shocase*/
+.headline {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8f8f8;
+    background: #111;
+}
+
+#showcase-container h2 {
+    text-align: center;
+    
+}
+
+#showcase-container p {
+    font-size: 1.2rem;
+    padding: 7px 0;
+  
+}
+/*conhecimentos*/
+#sobremim {
+    width: 100%;
+    background: #eee;
+    color: #111;
+    padding: 50px;
+}
+
+#conhecimento-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 15px;
+}
+.sobremim {
+    display: inline-block;
+    width: 25%;
+}
+
