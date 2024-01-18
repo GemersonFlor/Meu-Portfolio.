@@ -67,6 +67,8 @@
 
 .mobile-menu-icon {
     display: none;
+    max-width:60px;
+    max-height: 200px;
 }
 
 .mobile-menu {
@@ -138,20 +140,22 @@
 }
 /*conhecimentos*/
 #sobremim {
-    width: 100%;
-    background: #eee;
+    display: flex;
+    flex-direction: column;
+    background: #f5f4f4;
     color: #111;
-    padding: 50px;
+    padding: 20px;
 }
 
 #conhecimento-container {
+    width: 100%;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    padding: 15px;
-}
-.sobremim {
-    display: inline-block;
-    width: 25%;
+    grid-column-gap: 50px;
 }
 
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
