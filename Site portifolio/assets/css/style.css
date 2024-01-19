@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Open+Sans:ital,wght@0,400;1,700&display=swap'); 
+/*Acima import fonte de texto*/
 
+/*Geral*/
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +9,7 @@
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
 }
-
+/*Edições dos estilos da parte superior */
 .menu-topo {
     position: fixed;
     background-color: #24252a;
@@ -75,6 +77,7 @@
     display: none;
 }
 
+/*estilo do icone do menu ao diminuir a tela*/
 @media screen and (max-width: 730px) {
     .nav-bar {
         padding: 1.5rem 4rem;
@@ -109,16 +112,7 @@
     }
 }
 
-/*shocase*/
-.headline {
-    font-size: 2.2rem;
-    text-transform: uppercase;
-    font-weight: bolder;
-    text-align: center;
-    padding-bottom: 50px;
-    letter-spacing: 2px;
-}
-
+/*1 seção shocase*/
 #showcase {
     height: 100vh;
     display: flex;
@@ -126,6 +120,16 @@
     align-items: center;
     color: #f8f8f8;
     background: #111;
+}
+
+/*2 seção conhecimentos*/
+.headline {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
 }
 
 #showcase-container h2 {
@@ -138,7 +142,7 @@
     padding: 7px 0;
   
 }
-/*conhecimentos*/
+
 #sobremim {
     display: flex;
     flex-direction: column;
