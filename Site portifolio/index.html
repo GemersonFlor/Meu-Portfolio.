@@ -10,7 +10,7 @@
     <header class="menu-topo">
         <nav class="nav-bar">
             <div class="logo">
-                <h1>Portfólio</h1>
+                <h1> < / > </h1>
             </div>
 
             <div class="nav-list">
@@ -68,8 +68,31 @@
         </div>
     </section>
 
-    <section id="projetos">
+    <section id="forma">
         <div class="headline">Formação</div>
+        <div class="education-item" onclick="toggleDetails('course1')"><i class="fa-solid fa-graduation-cap fa-2x"></i><p>Formação Acadêmica</p> 
+        </div>
+         
+          <div class="education-details" id="course1">
+            <p>Nome do Curso: Curso 1</p>
+            <p>Instituição: Universidade 1</p>
+            <p>Ano de Conclusão: 20XX</p>
+            <p>Competencias: Ter uma gestão da qualidade uma organização extremamente importante para a sobrevivência de qualquer negocio, seja ele de segmento industrial ou de serviços. Hoje com uma grande competitividade entre as empresas entregar um serviço ou produto com qualidade gerara credibilidade e confiança no mercado. 
+
+                As ferramentas da qualidade como: Fluxograma, Diagrama Ishikawa (Espinha-de-Peixe), Folha de Verificação, Diagrama de Pareto, Histograma, Diagrama de Dispersão e Cartas de Controle, com auxilio do PDCA e para uma boa organização o 5s estabelece diretrizes e caminhos que quando bem definidos e equipe obterá um ótimo resultado. Essas ferramentas pode ser usadas em qualquer segmento como no setor de Tecnologia da Informação (TI) , Marketing, Atendimento ou cliente, Comércio entre outros.</p>
+          </div>
+
+          <div class="education-item" onclick="toggleDetails('course2')"><i class="fa-solid fa-graduation-cap fa-2x"></i><p>Formação Acadêmica</p> 
+          </div>
+            
+          </div>
+
+          <div class="education-details" id="course2">
+            <p>Nome do Curso: Curso 2</p>
+            <p>Instituição: Universidade 2</p>
+            <p>Ano de Conclusão: 20XX</p>
+            <p>Ano de Conclusão: 20XX</p>
+          </div>
     </section>
 
     <section id="contatos">
@@ -84,5 +107,11 @@
     </section>
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/272dbd830b.js" crossorigin="anonymous"></script>
+    <script>
+        function toggleDetails(courseId) {
+          var details = document.getElementById(courseId);
+          details.style.display = (details.style.display === 'none') ? 'block' : 'none';
+        }
+      </script>
 </body>
 </html>

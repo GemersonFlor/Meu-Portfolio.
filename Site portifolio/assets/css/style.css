@@ -28,6 +28,7 @@
 }
 
 .logo h1 {
+    font-size: 30px;
     color: #fff;
 }
 
@@ -163,3 +164,36 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+#forma {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+
+  }
+
+  .education-item {
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .education-item p {
+    width: 800rem;
+    margin-left:5px;   
+  }
+
+  .education-item:hover {
+    background-color: #f0f0f0;
+  }
+
+  .education-details {
+    display: none;
+    margin-top: 10px;
+  }
+
+
+  
