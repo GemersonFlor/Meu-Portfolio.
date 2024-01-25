@@ -166,34 +166,37 @@
 }
 
 #forma {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-
-  }
-
-  .education-item {
-    margin-bottom: 20px;
-    cursor: pointer;
     display: flex;
-    align-items: center;
-  }
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
 
-  .education-item p {
-    width: 800rem;
-    margin-left:5px;   
-  }
+#forma p {
 
-  .education-item:hover {
-    background-color: #f0f0f0;
-  }
+text-align: justify;
 
-  .education-details {
+}
+
+.imgemFaculdade {
+    text-align: center;
+    width: 95%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+}
+
+.imgemFaculdade img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.info {
     display: none;
     margin-top: 10px;
-  }
+}
 
 
   
