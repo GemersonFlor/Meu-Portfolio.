@@ -145,6 +145,7 @@
 }
 
 #sobremim {
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     background: #f5f4f4;
@@ -166,6 +167,7 @@
 }
 
 #forma {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -187,15 +189,56 @@ text-align: justify;
   
 }
 
-.imgemFaculdade img {
+.Card img {
     width: 200px;
     height: auto;
-    border-radius: 8px;
+    margin-top: 40px;
+
 }
 
 .info {
     display: none;
     margin-top: 10px;
+}
+
+
+
+
+.Caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.Card{
+    background: #ede7e7;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 15px;
+    overflow: hidden;
+    text-align:  center;
+}
+
+h5{
+    color: #110f0f;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.Paragrafo-button{
+    color: rgba(14, 13, 14, 0.8);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Paragrafo-button button{
+    margin-top: 25px;
 }
 
 
